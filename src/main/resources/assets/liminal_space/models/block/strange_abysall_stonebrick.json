@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liminal_space:block/strangeabysalltile",
+    "up": "liminal_space:block/strangeabysalltile",
+    "north": "liminal_space:block/strangeabysalltile",
+    "east": "liminal_space:block/strangeabysalltile",
+    "south": "liminal_space:block/strangeabysalltile",
+    "west": "liminal_space:block/strangeabysalltile",
+    "particle": "liminal_space:block/strangeabysalltile"
+  },
+  "render_type": "solid"
+}

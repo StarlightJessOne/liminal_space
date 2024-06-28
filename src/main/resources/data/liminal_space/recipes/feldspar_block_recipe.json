@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "liminal_space:feldspar"
+    }
+  },
+  "result": {
+    "item": "liminal_space:feldspar_block",
+    "count": 1
+  }
+}

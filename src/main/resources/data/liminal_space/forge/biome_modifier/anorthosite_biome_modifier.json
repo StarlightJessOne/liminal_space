@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "plains",
+  "features": "liminal_space:anorthosite",
+  "step": "underground_ores"
+}

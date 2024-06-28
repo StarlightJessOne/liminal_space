@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liminal_space:block/feldspar_block",
+    "up": "liminal_space:block/feldspar_block",
+    "north": "liminal_space:block/feldspar_block",
+    "east": "liminal_space:block/feldspar_block",
+    "south": "liminal_space:block/feldspar_block",
+    "west": "liminal_space:block/feldspar_block",
+    "particle": "liminal_space:block/feldspar_block"
+  },
+  "render_type": "solid"
+}

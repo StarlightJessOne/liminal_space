@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liminal_space:block/ka_alt",
+    "up": "liminal_space:block/ka_alt",
+    "north": "liminal_space:block/ka_alt",
+    "east": "liminal_space:block/ka_alt",
+    "south": "liminal_space:block/ka_alt",
+    "west": "liminal_space:block/ka_alt",
+    "particle": "liminal_space:block/ka_alt"
+  },
+  "render_type": "solid"
+}

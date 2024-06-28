@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "liminal_space:block/pool_tile_blue_slab"
+    },
+    "type=top": {
+      "model": "liminal_space:block/pool_tile_blue_slab_top"
+    },
+    "type=double": {
+      "model": "liminal_space:block/pool_tile_blue_slab_full"
+    }
+  }
+}

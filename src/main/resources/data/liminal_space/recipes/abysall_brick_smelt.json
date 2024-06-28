@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 1,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "liminal_space:abysall_stone"
+  },
+  "result": "liminal_space:abysallbrick"
+}

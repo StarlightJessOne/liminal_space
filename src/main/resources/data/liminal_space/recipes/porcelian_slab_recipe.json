@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "liminal_space:porcelain"
+    }
+  },
+  "result": {
+    "item": "liminal_space:porcelain_tiles",
+    "count": 3
+  }
+}

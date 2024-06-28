@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "liminal_space:block/porcelain_tiles"
+    },
+    "type=top": {
+      "model": "liminal_space:block/porcelain_tiles_top"
+    },
+    "type=double": {
+      "model": "liminal_space:block/porcelain_tiles_full"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "liminal_space:raw_liminalite"
+    }
+  },
+  "result": {
+    "item": "liminal_space:raw_liminalite_block",
+    "count": 1
+  }
+}

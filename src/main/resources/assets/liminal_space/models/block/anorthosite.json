@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liminal_space:block/anorthosite",
+    "up": "liminal_space:block/anorthosite",
+    "north": "liminal_space:block/anorthosite",
+    "east": "liminal_space:block/anorthosite",
+    "south": "liminal_space:block/anorthosite",
+    "west": "liminal_space:block/anorthosite",
+    "particle": "liminal_space:block/anorthosite"
+  },
+  "render_type": "solid"
+}

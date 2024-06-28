@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gunpowder"
+    },
+    "b": {
+      "item": "liminal_space:bleach"
+    },
+    "c": {
+      "item": "liminal_space:ammonia_canister"
+    }
+  },
+  "result": {
+    "item": "liminal_space:mustard_gas_grenade",
+    "count": 1
+  }
+}

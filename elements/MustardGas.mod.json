@@ -1,0 +1,28 @@
+{
+  "_fv": 60,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:MustardGasGrenade"
+    },
+    "showParticles": true,
+    "actionSound": {
+      "value": "entity.tnt.primed"
+    },
+    "igniteFire": false,
+    "power": 1.0,
+    "damage": 2.0,
+    "knockback": 2,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "onHitsBlock": {
+      "name": "MustardGasProjectileHitsBlock"
+    },
+    "onHitsPlayer": {
+      "name": "MustardGasProjectileHitsPlayer"
+    },
+    "onHitsEntity": {
+      "name": "MustardGasProjectileHitsLivingEntity"
+    }
+  }
+}

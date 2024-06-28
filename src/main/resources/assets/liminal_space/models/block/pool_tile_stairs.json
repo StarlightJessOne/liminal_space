@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "liminal_space:block/pool_tile",
+    "top": "liminal_space:block/pool_tile",
+    "side": "liminal_space:block/pool_tile"
+  },
+  "render_type": "translucent"
+}

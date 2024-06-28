@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liminal_space:block/poolblue",
+    "up": "liminal_space:block/poolblue",
+    "north": "liminal_space:block/poolblue",
+    "east": "liminal_space:block/poolblue",
+    "south": "liminal_space:block/poolblue",
+    "west": "liminal_space:block/poolblue",
+    "particle": "liminal_space:block/poolblue"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,48 @@
+{
+  "_fv": 60,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChlorineTablet"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChlorineTablet"
+      },
+      {
+        "value": "Items.WATER_BUCKET"
+      },
+      {
+        "value": "CUSTOM:ChlorineTablet"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChlorineTablet"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:PoolWater.bucket"
+    },
+    "name": "pool_water_recipe",
+    "namespace": "mod"
+  }
+}

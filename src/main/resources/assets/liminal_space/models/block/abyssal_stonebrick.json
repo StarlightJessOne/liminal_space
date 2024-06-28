@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liminal_space:block/abyss_4",
+    "up": "liminal_space:block/abyss_4",
+    "north": "liminal_space:block/abyss_4",
+    "east": "liminal_space:block/abyss_4",
+    "south": "liminal_space:block/abyss_4",
+    "west": "liminal_space:block/abyss_4",
+    "particle": "liminal_space:block/abyss_4"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "liminal_space:block/heavily_covered_pool_tiles"
+    },
+    "facing=east": {
+      "model": "liminal_space:block/heavily_covered_pool_tiles",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "liminal_space:block/heavily_covered_pool_tiles",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "liminal_space:block/heavily_covered_pool_tiles",
+      "y": 270
+    }
+  }
+}

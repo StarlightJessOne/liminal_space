@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liminal_space:block/halite",
+    "up": "liminal_space:block/halite",
+    "north": "liminal_space:block/halite",
+    "east": "liminal_space:block/halite",
+    "south": "liminal_space:block/halite",
+    "west": "liminal_space:block/halite",
+    "particle": "liminal_space:block/halite"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ab",
+    "ba"
+  ],
+  "key": {
+    "a": {
+      "item": "liminal_space:kaolinite_hardened_brick"
+    },
+    "b": {
+      "item": "liminal_space:feldspar"
+    }
+  },
+  "result": {
+    "item": "liminal_space:porcelain",
+    "count": 1
+  }
+}

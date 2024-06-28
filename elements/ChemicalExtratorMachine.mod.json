@@ -1,0 +1,211 @@
+{
+  "_fv": 60,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "image",
+        "data": {
+          "image": "power_level_zero.png",
+          "use1Xscale": false,
+          "x": 137,
+          "y": 65
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_chemical_extractor_machine",
+          "text": {
+            "fixedValue": "Chemical Extractor Machine"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 144,
+          "y": 41
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 0,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 172,
+          "y": 54
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
+          },
+          "id": 1,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 172,
+          "y": 92
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disablePickup": {
+            "fixedValue": false
+          },
+          "dropItemsWhenNotBound": true,
+          "x": 236,
+          "y": 73
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "right_arrow.png",
+          "use1Xscale": false,
+          "x": 199,
+          "y": 74
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "blasting_extreme.png",
+          "use1Xscale": false,
+          "x": 172,
+          "y": 72
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_inventory",
+          "text": {
+            "fixedValue": "Inventory"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 110
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "power_level_zero.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PowerLevelBar7"
+          },
+          "x": 137,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "power_level_1.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PowerLevelBar6"
+          },
+          "x": 137,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "power_level_2.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PowerLevelBar5"
+          },
+          "x": 137,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "power_level_3.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PowerLevelBar4"
+          },
+          "x": 137,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "power_level_4.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PowerlevelBar3"
+          },
+          "x": 137,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "power_level_5.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PowerLevelBar2"
+          },
+          "x": 137,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "power_level_6.png",
+          "use1Xscale": false,
+          "displayCondition": {
+            "name": "PowerLevelBar"
+          },
+          "x": 137,
+          "y": 65
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

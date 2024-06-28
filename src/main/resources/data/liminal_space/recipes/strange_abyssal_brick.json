@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ab",
+    "ba"
+  ],
+  "key": {
+    "a": {
+      "item": "liminal_space:refined_liminalite"
+    },
+    "b": {
+      "item": "liminal_space:abyssal_stonebrick"
+    }
+  },
+  "result": {
+    "item": "liminal_space:strange_abysall_stonebrick",
+    "count": 1
+  }
+}

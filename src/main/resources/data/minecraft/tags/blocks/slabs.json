@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "liminal_space:pool_tile_blue_slab",
+    "liminal_space:pool_tile_cyan_slab",
+    "liminal_space:pool_tile_slab",
+    "liminal_space:porcelain_tiles"
+  ]
+}

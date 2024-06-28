@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "liminal_space:block/anorthosite"
+    },
+    "facing=east": {
+      "model": "liminal_space:block/anorthosite",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "liminal_space:block/anorthosite",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "liminal_space:block/anorthosite",
+      "y": 270
+    }
+  }
+}

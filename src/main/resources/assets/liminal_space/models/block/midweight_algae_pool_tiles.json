@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liminal_space:block/tile_algae_3-4",
+    "up": "liminal_space:block/tile_algae_3-4",
+    "north": "liminal_space:block/tile_algae_3-4",
+    "east": "liminal_space:block/tile_algae_3-4",
+    "south": "liminal_space:block/tile_algae_3-4",
+    "west": "liminal_space:block/tile_algae_3-4",
+    "particle": "liminal_space:block/tile_algae_3-4"
+  },
+  "render_type": "solid"
+}

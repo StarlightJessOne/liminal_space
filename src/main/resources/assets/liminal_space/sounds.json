@@ -1,0 +1,10 @@
+{
+  "test": {
+    "sounds": [
+      {
+        "name": "liminal_space:chemical_extractor",
+        "stream": false
+      }
+    ]
+  }
+}

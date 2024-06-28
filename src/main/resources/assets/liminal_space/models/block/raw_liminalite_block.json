@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liminal_space:block/raw_liminalite_block",
+    "up": "liminal_space:block/raw_liminalite_block",
+    "north": "liminal_space:block/raw_liminalite_block",
+    "east": "liminal_space:block/raw_liminalite_block",
+    "south": "liminal_space:block/raw_liminalite_block",
+    "west": "liminal_space:block/raw_liminalite_block",
+    "particle": "liminal_space:block/raw_liminalite_block"
+  },
+  "render_type": "solid"
+}

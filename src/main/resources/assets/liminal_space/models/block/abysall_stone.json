@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liminal_space:block/abysal_stone5",
+    "up": "liminal_space:block/abysal_stone5",
+    "north": "liminal_space:block/abysal_stone5",
+    "east": "liminal_space:block/abysal_stone5",
+    "south": "liminal_space:block/abysal_stone5",
+    "west": "liminal_space:block/abysal_stone5",
+    "particle": "liminal_space:block/abysal_stone5"
+  },
+  "render_type": "solid"
+}

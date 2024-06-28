@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "liminal_space:pool_tile_blue"
+    }
+  },
+  "result": {
+    "item": "liminal_space:pool_tile_blue_slab",
+    "count": 3
+  }
+}

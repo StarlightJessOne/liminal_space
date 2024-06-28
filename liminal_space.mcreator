@@ -1,0 +1,2698 @@
+{
+  "mod_elements": [
+    {
+      "name": "Kaolinite",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaolinite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/forge/biome_modifier/kaolinite_biome_modifier.json",
+          "src/main/java/net/liminalspace/block/KaoliniteBlock.java",
+          "src/main/resources/data/liminal_space/worldgen/configured_feature/kaolinite.json",
+          "src/main/resources/assets/liminal_space/blockstates/kaolinite.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/kaolinite.json",
+          "src/main/resources/assets/liminal_space/models/item/kaolinite.json",
+          "src/main/resources/assets/liminal_space/models/block/kaolinite.json",
+          "src/main/resources/data/liminal_space/worldgen/placed_feature/kaolinite.json"
+        ]
+      }
+    },
+    {
+      "name": "KaoliniteClay",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaolinite_clay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/item/KaoliniteClayItem.java",
+          "src/main/resources/assets/liminal_space/models/item/kaolinite_clay.json"
+        ]
+      }
+    },
+    {
+      "name": "Porcelain",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcelain",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/block/porcelain.json",
+          "src/main/resources/assets/liminal_space/blockstates/porcelain.json",
+          "src/main/java/net/liminalspace/block/PorcelainBlock.java",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/porcelain.json",
+          "src/main/resources/assets/liminal_space/models/item/porcelain.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcelainTiles",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcelain_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/block/porcelain_tiles.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/porcelain_tiles.json",
+          "src/main/resources/assets/liminal_space/models/item/porcelain_tiles.json",
+          "src/main/resources/assets/liminal_space/models/block/porcelain_tiles_top.json",
+          "src/main/resources/assets/liminal_space/models/block/porcelain_tiles_full.json",
+          "src/main/java/net/liminalspace/block/PorcelainTilesBlock.java",
+          "src/main/resources/assets/liminal_space/blockstates/porcelain_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "ABYSALLBRICK",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abysallbrick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/item/ABYSALLBRICKItem.java",
+          "src/main/resources/assets/liminal_space/models/item/abysallbrick.json"
+        ]
+      }
+    },
+    {
+      "name": "KaoliniteHardenedBrick",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kaolinite_hardened_brick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/item/KaoliniteHardenedBrickItem.java",
+          "src/main/resources/assets/liminal_space/models/item/kaolinite_hardened_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "Anorthosite",
+      "type": "block",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anorthosite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/blockstates/anorthosite.json",
+          "src/main/resources/data/liminal_space/worldgen/placed_feature/anorthosite.json",
+          "src/main/resources/assets/liminal_space/models/block/anorthosite.json",
+          "src/main/java/net/liminalspace/block/AnorthositeBlock.java",
+          "src/main/resources/data/liminal_space/forge/biome_modifier/anorthosite_biome_modifier.json",
+          "src/main/resources/data/liminal_space/worldgen/configured_feature/anorthosite.json",
+          "src/main/resources/assets/liminal_space/models/item/anorthosite.json"
+        ]
+      }
+    },
+    {
+      "name": "Feldspar",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feldspar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/item/FeldsparItem.java",
+          "src/main/resources/assets/liminal_space/models/item/feldspar.json"
+        ]
+      }
+    },
+    {
+      "name": "FeldsparBlock",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feldspar_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/blockstates/feldspar_block.json",
+          "src/main/resources/assets/liminal_space/models/item/feldspar_block.json",
+          "src/main/java/net/liminalspace/block/FeldsparBlockBlock.java",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/feldspar_block.json",
+          "src/main/resources/assets/liminal_space/models/block/feldspar_block.json"
+        ]
+      }
+    },
+    {
+      "name": "StrangeAbysallStonebrick",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_abysall_stonebrick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/block/StrangeAbysallStonebrickBlock.java",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/strange_abysall_stonebrick.json",
+          "src/main/resources/assets/liminal_space/models/item/strange_abysall_stonebrick.json",
+          "src/main/resources/assets/liminal_space/blockstates/strange_abysall_stonebrick.json",
+          "src/main/resources/assets/liminal_space/models/block/strange_abysall_stonebrick.json"
+        ]
+      }
+    },
+    {
+      "name": "LightAlgaePoolTiles",
+      "type": "block",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_algae_pool_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/item/light_algae_pool_tiles.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/light_algae_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/block/light_algae_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/blockstates/light_algae_pool_tiles.json",
+          "src/main/java/net/liminalspace/block/LightAlgaePoolTilesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "MidweightAlgaePoolTiles",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midweight_algae_pool_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/block/MidweightAlgaePoolTilesBlock.java",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/midweight_algae_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/item/midweight_algae_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/blockstates/midweight_algae_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/block/midweight_algae_pool_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "HeavilyCoveredPoolTiles",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavily_covered_pool_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/loot_tables/blocks/heavily_covered_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/item/heavily_covered_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/block/heavily_covered_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/blockstates/heavily_covered_pool_tiles.json",
+          "src/main/java/net/liminalspace/block/HeavilyCoveredPoolTilesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ExtremeAlagaeCoveredPoolTiles",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extreme_alagae_covered_pool_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/item/extreme_alagae_covered_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/block/extreme_alagae_covered_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/blockstates/extreme_alagae_covered_pool_tiles.json",
+          "src/main/java/net/liminalspace/block/ExtremeAlagaeCoveredPoolTilesBlock.java",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/extreme_alagae_covered_pool_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "LightAlgaeCyanPoolTiles",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_algae_cyan_pool_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/item/light_algae_cyan_pool_tiles.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/light_algae_cyan_pool_tiles.json",
+          "src/main/java/net/liminalspace/block/LightAlgaeCyanPoolTilesBlock.java",
+          "src/main/resources/assets/liminal_space/blockstates/light_algae_cyan_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/block/light_algae_cyan_pool_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "MidweightAlgaeCyanPoolTiles",
+      "type": "block",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midweight_algae_cyan_pool_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/block/MidweightAlgaeCyanPoolTilesBlock.java",
+          "src/main/resources/assets/liminal_space/models/block/midweight_algae_cyan_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/blockstates/midweight_algae_cyan_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/item/midweight_algae_cyan_pool_tiles.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/midweight_algae_cyan_pool_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "HeavilyCoveredAlgaeCyanPoolTiles",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavily_covered_algae_cyan_pool_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/blockstates/heavily_covered_algae_cyan_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/block/heavily_covered_algae_cyan_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/item/heavily_covered_algae_cyan_pool_tiles.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/heavily_covered_algae_cyan_pool_tiles.json",
+          "src/main/java/net/liminalspace/block/HeavilyCoveredAlgaeCyanPoolTilesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ExtremeAlgaeCoveredCyanPoolTiles",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extreme_algae_covered_cyan_pool_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/block/extreme_algae_covered_cyan_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/blockstates/extreme_algae_covered_cyan_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/item/extreme_algae_covered_cyan_pool_tiles.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/extreme_algae_covered_cyan_pool_tiles.json",
+          "src/main/java/net/liminalspace/block/ExtremeAlgaeCoveredCyanPoolTilesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "LightAlgaeBluePoolTile",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_algae_blue_pool_tile",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/block/LightAlgaeBluePoolTileBlock.java",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/light_algae_blue_pool_tile.json",
+          "src/main/resources/assets/liminal_space/models/item/light_algae_blue_pool_tile.json",
+          "src/main/resources/assets/liminal_space/blockstates/light_algae_blue_pool_tile.json",
+          "src/main/resources/assets/liminal_space/models/block/light_algae_blue_pool_tile.json"
+        ]
+      }
+    },
+    {
+      "name": "MidweightAlgaeBluePoolTiles",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midweight_algae_blue_pool_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/block/MidweightAlgaeBluePoolTilesBlock.java",
+          "src/main/resources/assets/liminal_space/models/block/midweight_algae_blue_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/blockstates/midweight_algae_blue_pool_tiles.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/midweight_algae_blue_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/item/midweight_algae_blue_pool_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "HeavilyCoveredAlgaeBluePoolTiles",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavily_covered_algae_blue_pool_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/block/HeavilyCoveredAlgaeBluePoolTilesBlock.java",
+          "src/main/resources/assets/liminal_space/blockstates/heavily_covered_algae_blue_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/block/heavily_covered_algae_blue_pool_tiles.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/heavily_covered_algae_blue_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/item/heavily_covered_algae_blue_pool_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "ExtremeAlgaeCoveredBluePoolTiles",
+      "type": "block",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extreme_algae_covered_blue_pool_tiles",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/block/ExtremeAlgaeCoveredBluePoolTilesBlock.java",
+          "src/main/resources/assets/liminal_space/blockstates/extreme_algae_covered_blue_pool_tiles.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/extreme_algae_covered_blue_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/item/extreme_algae_covered_blue_pool_tiles.json",
+          "src/main/resources/assets/liminal_space/models/block/extreme_algae_covered_blue_pool_tiles.json"
+        ]
+      }
+    },
+    {
+      "name": "ChlorineTablet",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chlorine_tablet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/item/ChlorineTabletItem.java",
+          "src/main/resources/assets/liminal_space/models/item/chlorine_tablet.json"
+        ]
+      }
+    },
+    {
+      "name": "BlockofAlgae",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blockof_algae",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/loot_tables/blocks/blockof_algae.json",
+          "src/main/resources/assets/liminal_space/models/block/blockof_algae.json",
+          "src/main/java/net/liminalspace/block/BlockofAlgaeBlock.java",
+          "src/main/resources/assets/liminal_space/models/item/blockof_algae.json",
+          "src/main/resources/assets/liminal_space/blockstates/blockof_algae.json"
+        ]
+      }
+    },
+    {
+      "name": "PoolWater",
+      "type": "fluid",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_water",
+      "metadata": {
+        "gb": true,
+        "files": [
+          "src/main/java/net/liminalspace/item/PoolWaterItem.java",
+          "src/main/resources/assets/liminal_space/models/block/pool_water.json",
+          "src/main/java/net/liminalspace/fluid/types/PoolWaterFluidType.java",
+          "src/main/resources/assets/liminal_space/blockstates/pool_water.json",
+          "src/main/java/net/liminalspace/block/PoolWaterBlock.java",
+          "src/main/java/net/liminalspace/fluid/PoolWaterFluid.java",
+          "src/main/resources/assets/liminal_space/models/item/pool_water_bucket.json"
+        ]
+      }
+    },
+    {
+      "name": "Bleach",
+      "type": "item",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleach",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/item/BleachItem.java",
+          "src/main/resources/assets/liminal_space/models/item/bleach.json"
+        ]
+      }
+    },
+    {
+      "name": "Chlorine",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chlorine",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/chlorine.json"
+        ]
+      }
+    },
+    {
+      "name": "Grenade",
+      "type": "recipe",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenade",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/grenade.json"
+        ]
+      }
+    },
+    {
+      "name": "DrinkableBleach",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drinkable_bleach",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/drinkable_bleach.json"
+        ]
+      }
+    },
+    {
+      "name": "AmmoniaCanister",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ammonia_canister",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/item/AmmoniaCanisterItem.java",
+          "src/main/resources/assets/liminal_space/models/item/ammonia_canister.json"
+        ]
+      }
+    },
+    {
+      "name": "Halite",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/item/halite.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/halite.json",
+          "src/main/resources/assets/liminal_space/models/block/halite.json",
+          "src/main/resources/assets/liminal_space/blockstates/halite.json",
+          "src/main/java/net/liminalspace/block/HaliteBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PoolTileSlab",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_tile_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/block/pool_tile_slab_full.json",
+          "src/main/resources/assets/liminal_space/models/block/pool_tile_slab.json",
+          "src/main/resources/assets/liminal_space/models/block/pool_tile_slab_top.json",
+          "src/main/java/net/liminalspace/block/PoolTileSlabBlock.java",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/pool_tile_slab.json",
+          "src/main/resources/assets/liminal_space/models/item/pool_tile_slab.json",
+          "src/main/resources/assets/liminal_space/blockstates/pool_tile_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "PoolTileStairs",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_tile_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/loot_tables/blocks/pool_tile_stairs.json",
+          "src/main/resources/assets/liminal_space/blockstates/pool_tile_stairs.json",
+          "src/main/resources/assets/liminal_space/models/block/pool_tile_stairs_inner.json",
+          "src/main/resources/assets/liminal_space/models/item/pool_tile_stairs.json",
+          "src/main/resources/assets/liminal_space/models/block/pool_tile_stairs_outer.json",
+          "src/main/resources/assets/liminal_space/models/block/pool_tile_stairs.json",
+          "src/main/java/net/liminalspace/block/PoolTileStairsBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Limestone",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/blockstates/limestone.json",
+          "src/main/resources/assets/liminal_space/models/item/limestone.json",
+          "src/main/java/net/liminalspace/block/LimestoneBlock.java",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/limestone.json",
+          "src/main/resources/assets/liminal_space/models/block/limestone.json"
+        ]
+      }
+    },
+    {
+      "name": "AbyssalStonebrick",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssal_stonebrick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/block/AbyssalStonebrickBlock.java",
+          "src/main/resources/assets/liminal_space/models/item/abyssal_stonebrick.json",
+          "src/main/resources/assets/liminal_space/blockstates/abyssal_stonebrick.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/abyssal_stonebrick.json",
+          "src/main/resources/assets/liminal_space/models/block/abyssal_stonebrick.json"
+        ]
+      }
+    },
+    {
+      "name": "AbysallStone",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abysall_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/block/AbysallStoneBlock.java",
+          "src/main/resources/assets/liminal_space/blockstates/abysall_stone.json",
+          "src/main/resources/assets/liminal_space/models/block/abysall_stone.json",
+          "src/main/resources/assets/liminal_space/models/item/abysall_stone.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/abysall_stone.json",
+          "src/main/resources/data/liminal_space/worldgen/configured_feature/abysall_stone.json",
+          "src/main/resources/data/liminal_space/forge/biome_modifier/abysall_stone_biome_modifier.json",
+          "src/main/resources/data/liminal_space/worldgen/placed_feature/abysall_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "LiminaliteBlock",
+      "type": "block",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liminalite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/item/liminalite_block.json",
+          "src/main/java/net/liminalspace/block/LiminaliteBlockBlock.java",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/liminalite_block.json",
+          "src/main/resources/assets/liminal_space/models/block/liminalite_block.json",
+          "src/main/resources/assets/liminal_space/blockstates/liminalite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RefinedLiminalite",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "refined_liminalite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/item/refined_liminalite.json",
+          "src/main/java/net/liminalspace/item/RefinedLiminaliteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RawLiminalite",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_liminalite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/item/RawLiminaliteItem.java",
+          "src/main/resources/assets/liminal_space/models/item/raw_liminalite.json"
+        ]
+      }
+    },
+    {
+      "name": "RawLiminaliteBlock",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_liminalite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/item/raw_liminalite_block.json",
+          "src/main/resources/assets/liminal_space/models/block/raw_liminalite_block.json",
+          "src/main/java/net/liminalspace/block/RawLiminaliteBlockBlock.java",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/raw_liminalite_block.json",
+          "src/main/resources/assets/liminal_space/blockstates/raw_liminalite_block.json"
+        ]
+      }
+    },
+    {
+      "name": "LiminaliteOre",
+      "type": "block",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liminalite_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/block/LiminaliteOreBlock.java",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/liminalite_ore.json",
+          "src/main/resources/data/liminal_space/forge/biome_modifier/liminalite_ore_biome_modifier.json",
+          "src/main/resources/assets/liminal_space/blockstates/liminalite_ore.json",
+          "src/main/resources/data/liminal_space/worldgen/configured_feature/liminalite_ore.json",
+          "src/main/resources/assets/liminal_space/models/item/liminalite_ore.json",
+          "src/main/resources/data/liminal_space/worldgen/placed_feature/liminalite_ore.json",
+          "src/main/resources/assets/liminal_space/models/block/liminalite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "PercentFeldsparfromAnorthosite",
+      "type": "loottable",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "percent_feldsparfrom_anorthosite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/loot_tables/blocks/percent_feldsparfrom_anorthosite.json"
+        ]
+      }
+    },
+    {
+      "name": "PoolTilesCyan",
+      "type": "block",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_tiles_cyan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/loot_tables/blocks/pool_tiles_cyan.json",
+          "src/main/resources/assets/liminal_space/blockstates/pool_tiles_cyan.json",
+          "src/main/resources/assets/liminal_space/models/item/pool_tiles_cyan.json",
+          "src/main/java/net/liminalspace/block/PoolTilesCyanBlock.java",
+          "src/main/resources/assets/liminal_space/models/block/pool_tiles_cyan.json"
+        ]
+      }
+    },
+    {
+      "name": "PoolTile",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_tile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/item/pool_tile.json",
+          "src/main/resources/assets/liminal_space/models/block/pool_tile.json",
+          "src/main/java/net/liminalspace/block/PoolTileBlock.java",
+          "src/main/resources/assets/liminal_space/blockstates/pool_tile.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/pool_tile.json"
+        ]
+      }
+    },
+    {
+      "name": "PoolTileBlue",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_tile_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/block/pool_tile_blue.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/pool_tile_blue.json",
+          "src/main/resources/assets/liminal_space/blockstates/pool_tile_blue.json",
+          "src/main/resources/assets/liminal_space/models/item/pool_tile_blue.json",
+          "src/main/java/net/liminalspace/block/PoolTileBlueBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PowderedChlorine",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powdered_chlorine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/item/powdered_chlorine.json",
+          "src/main/java/net/liminalspace/item/PowderedChlorineItem.java"
+        ]
+      }
+    },
+    {
+      "name": "PorcelainRecipie",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcelain_recipie",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/porcelain_recipie.json"
+        ]
+      }
+    },
+    {
+      "name": "SmeltKoalinite",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt_koalinite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/smelt_koalinite.json"
+        ]
+      }
+    },
+    {
+      "name": "PoolTileRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_tile_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/pool_tile_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "DyePoolTileBlue",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dye_pool_tile_blue",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/dye_pool_tile_blue.json"
+        ]
+      }
+    },
+    {
+      "name": "DyePoolTileCyan",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dye_pool_tile_cyan",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/dye_pool_tile_cyan.json"
+        ]
+      }
+    },
+    {
+      "name": "AbysallBrickSmelt",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abysall_brick_smelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/abysall_brick_smelt.json"
+        ]
+      }
+    },
+    {
+      "name": "AbyssalStonebrickCraft",
+      "type": "recipe",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssal_stonebrick_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/abyssal_stonebrick_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "StrangeAbyssalBrick",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strange_abyssal_brick",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/strange_abyssal_brick.json"
+        ]
+      }
+    },
+    {
+      "name": "LiminaliteBlockRecipe",
+      "type": "recipe",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liminalite_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/liminalite_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RawLiminaliteRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_liminalite_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/raw_liminalite_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FeldsparBlockRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "feldspar_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/feldspar_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "LiminalSpaces",
+      "type": "tab",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liminal_spaces",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ChemicalExtratorMachine",
+      "type": "gui",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemical_extrator_machine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/world/inventory/ChemicalExtratorMachineMenu.java",
+          "src/main/java/net/liminalspace/client/gui/ChemicalExtratorMachineScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "ChemicalExtractorMachine",
+      "type": "block",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemical_extractor_machine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/blockstates/chemical_extractor_machine.json",
+          "src/main/resources/assets/liminal_space/models/block/chemical_extractor_machine.json",
+          "src/main/resources/assets/liminal_space/models/item/chemical_extractor_machine.json",
+          "src/main/java/net/liminalspace/block/entity/ChemicalExtractorMachineBlockEntity.java",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/chemical_extractor_machine.json",
+          "src/main/java/net/liminalspace/block/ChemicalExtractorMachineBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PowerLevelBar",
+      "type": "procedure",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_level_bar",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/liminalspace/procedures/PowerLevelBarProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PowerLevelBar2",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_level_bar_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/liminalspace/procedures/PowerLevelBar2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PowerlevelBar3",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "powerlevel_bar_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/liminalspace/procedures/PowerlevelBar3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PowerLevelBar4",
+      "type": "procedure",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_level_bar_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/liminalspace/procedures/PowerLevelBar4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PowerLevelBar5",
+      "type": "procedure",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_level_bar_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/liminalspace/procedures/PowerLevelBar5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PowerLevelBar6",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_level_bar_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/liminalspace/procedures/PowerLevelBar6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChemicalExtracotrOn",
+      "type": "block",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemical_extracotr_on",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/loot_tables/blocks/chemical_extracotr_on.json",
+          "src/main/java/net/liminalspace/block/entity/ChemicalExtracotrOnBlockEntity.java",
+          "src/main/resources/assets/liminal_space/models/block/chemical_extracotr_on.json",
+          "src/main/resources/assets/liminal_space/models/item/chemical_extracotr_on.json",
+          "src/main/java/net/liminalspace/block/ChemicalExtracotrOnBlock.java",
+          "src/main/resources/assets/liminal_space/blockstates/chemical_extracotr_on.json"
+        ]
+      }
+    },
+    {
+      "name": "MainRecipeScript",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "main_recipe_script",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/MainRecipeScriptProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chemical Extraction Chamer"
+    },
+    {
+      "name": "FURNACEFUELADDED",
+      "type": "procedure",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnacefueladded",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/FURNACEFUELADDEDProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chemical Extraction Chamer"
+    },
+    {
+      "name": "FURNACEFUELSCRIPT",
+      "type": "procedure",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnacefuelscript",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/FURNACEFUELSCRIPTProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chemical Extraction Chamer"
+    },
+    {
+      "name": "FurnaceUpdateTickOn",
+      "type": "procedure",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_update_tick_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/FurnaceUpdateTickOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chemical Extraction Chamer"
+    },
+    {
+      "name": "FurnaceUpdate",
+      "type": "procedure",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furnace_update",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/FurnaceUpdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chemical Extraction Chamer"
+    },
+    {
+      "name": "HALITETOCHLORINE",
+      "type": "procedure",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "halitetochlorine",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/HALITETOCHLORINEProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Chemical Extraction Chamer"
+    },
+    {
+      "name": "Redstoneenergy",
+      "type": "itemextension",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstoneenergy",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/item/extension/RedstoneenergyItemExtension.java"
+        ]
+      }
+    },
+    {
+      "name": "PowerLevelBar7",
+      "type": "procedure",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_level_bar_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/liminalspace/procedures/PowerLevelBar7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightlyCoveredAlgaePoolTileRightClick",
+      "type": "procedure",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightly_covered_algae_pool_tile_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/LightlyCoveredAlgaePoolTileRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pool_Tile_Weathering"
+    },
+    {
+      "name": "PoolTileAge",
+      "type": "procedure",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_tile_age",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/PoolTileAgeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pool_Tile_Weathering"
+    },
+    {
+      "name": "MidWeightAlgaeRightClick",
+      "type": "procedure",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mid_weight_algae_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/MidWeightAlgaeRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pool_Tile_Weathering"
+    },
+    {
+      "name": "HeavilyCoveredAlgaeRightClick",
+      "type": "procedure",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heavily_covered_algae_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/HeavilyCoveredAlgaeRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pool_Tile_Weathering"
+    },
+    {
+      "name": "ExtremelyCoveredAlgae",
+      "type": "procedure",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "extremely_covered_algae",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/ExtremelyCoveredAlgaeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pool_Tile_Weathering"
+    },
+    {
+      "name": "AlgaeBall",
+      "type": "item",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "algae_ball",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/item/algae_ball.json",
+          "src/main/java/net/liminalspace/item/AlgaeBallItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BalltoBlock",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ballto_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/ballto_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanLightlyCoveredPoolTileRightClick",
+      "type": "procedure",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_lightly_covered_pool_tile_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/CyanLightlyCoveredPoolTileRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pool_Tile_Weathering"
+    },
+    {
+      "name": "CyanPoolAge",
+      "type": "procedure",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_pool_age",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/CyanPoolAgeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pool_Tile_Weathering"
+    },
+    {
+      "name": "CyanMidWeightRightClick",
+      "type": "procedure",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_mid_weight_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/CyanMidWeightRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pool_Tile_Weathering"
+    },
+    {
+      "name": "CyanHeavilyCoveredRightClick",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_heavily_covered_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/CyanHeavilyCoveredRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pool_Tile_Weathering"
+    },
+    {
+      "name": "CyanExtremeRightClick",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_extreme_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/CyanExtremeRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pool_Tile_Weathering"
+    },
+    {
+      "name": "BluePoolAge",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_pool_age",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/BluePoolAgeProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pool_Tile_Weathering"
+    },
+    {
+      "name": "BlueMidweightRightClick",
+      "type": "procedure",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_midweight_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/BlueMidweightRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pool_Tile_Weathering"
+    },
+    {
+      "name": "BlueLightlyrightclick",
+      "type": "procedure",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_lightlyrightclick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/BlueLightlyrightclickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pool_Tile_Weathering"
+    },
+    {
+      "name": "BlueHeavilyRightClick",
+      "type": "procedure",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_heavily_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/BlueHeavilyRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pool_Tile_Weathering"
+    },
+    {
+      "name": "BlueExtremeRightClick",
+      "type": "procedure",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_extreme_right_click",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/BlueExtremeRightClickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Pool_Tile_Weathering"
+    },
+    {
+      "name": "PoolTileCyanSlab",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_tile_cyan_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/block/pool_tile_cyan_slab.json",
+          "src/main/java/net/liminalspace/block/PoolTileCyanSlabBlock.java",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/pool_tile_cyan_slab.json",
+          "src/main/resources/assets/liminal_space/models/block/pool_tile_cyan_slab_top.json",
+          "src/main/resources/assets/liminal_space/blockstates/pool_tile_cyan_slab.json",
+          "src/main/resources/assets/liminal_space/models/block/pool_tile_cyan_slab_full.json",
+          "src/main/resources/assets/liminal_space/models/item/pool_tile_cyan_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "PoolTileBlueSlab",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_tile_blue_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/liminal_space/models/item/pool_tile_blue_slab.json",
+          "src/main/resources/assets/liminal_space/models/block/pool_tile_blue_slab_full.json",
+          "src/main/resources/assets/liminal_space/blockstates/pool_tile_blue_slab.json",
+          "src/main/resources/data/liminal_space/loot_tables/blocks/pool_tile_blue_slab.json",
+          "src/main/resources/assets/liminal_space/models/block/pool_tile_blue_slab_top.json",
+          "src/main/java/net/liminalspace/block/PoolTileBlueSlabBlock.java",
+          "src/main/resources/assets/liminal_space/models/block/pool_tile_blue_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "MustardGasGrenade",
+      "type": "item",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustard_gas_grenade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/item/MustardGasGrenadeItem.java",
+          "src/main/resources/assets/liminal_space/models/item/mustard_gas_grenade.json"
+        ]
+      }
+    },
+    {
+      "name": "MustardParticle",
+      "type": "particle",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustard_particle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/client/particle/MustardParticleParticle.java",
+          "src/main/resources/assets/liminal_space/particles/mustard_particle.json"
+        ]
+      }
+    },
+    {
+      "name": "MustardGas",
+      "type": "projectile",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustard_gas",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/entity/MustardGasEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "MustardGasProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustard_gas_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/MustardGasProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MustardGasPoisoning",
+      "type": "potioneffect",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustard_gas_poisoning",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/potion/MustardGasPoisoningMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "ChemicalExtractor",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemical_extractor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/chemical_extractor.json"
+        ]
+      }
+    },
+    {
+      "name": "Ammonia",
+      "type": "potioneffect",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ammonia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/potion/AmmoniaMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "MustardGasPoisoningEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustard_gas_poisoning_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/MustardGasPoisoningEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MustardPoisoning",
+      "type": "damagetype",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustard_poisoning",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MustardGasProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustard_gas_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/MustardGasProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MustardGasProjectileHitsPlayer",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mustard_gas_projectile_hits_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/liminalspace/procedures/MustardGasProjectileHitsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PoolWaterRecipe",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_water_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/pool_water_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PorcelianSlabRecipe",
+      "type": "recipe",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "porcelian_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/porcelian_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "PoolTileRecipeSlab",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_tile_recipe_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/pool_tile_recipe_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "PoolTileStair",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pool_tile_stair",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/pool_tile_stair.json"
+        ]
+      }
+    },
+    {
+      "name": "CyanPoolTileRecipe",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cyan_pool_tile_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/cyan_pool_tile_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "BluePoolTileRecipeSlabn",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blue_pool_tile_recipe_slabn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/blue_pool_tile_recipe_slabn.json"
+        ]
+      }
+    },
+    {
+      "name": "BIOFUEL",
+      "type": "itemextension",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biofuel",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BIOFUELBLOCK",
+      "type": "itemextension",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "biofuelblock",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ALGAEBONEMEAL",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "algaebonemeal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/algaebonemeal.json"
+        ]
+      }
+    },
+    {
+      "name": "ALGAEDYE",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "algaedye",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/liminal_space/recipes/algaedye.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "craftime",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "test",
+      "files": [
+        "chemical_extractor"
+      ],
+      "category": "block",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:age": [
+      "CUSTOM:LightAlgaePoolTiles",
+      "CUSTOM:MidweightAlgaePoolTiles",
+      "CUSTOM:HeavilyCoveredPoolTiles",
+      "CUSTOM:ExtremeAlagaeCoveredPoolTiles",
+      "CUSTOM:LightAlgaeCyanPoolTiles",
+      "CUSTOM:MidweightAlgaeCyanPoolTiles",
+      "CUSTOM:HeavilyCoveredAlgaeCyanPoolTiles",
+      "CUSTOM:ExtremeAlgaeCoveredCyanPoolTiles",
+      "CUSTOM:LightAlgaeBluePoolTile",
+      "CUSTOM:MidweightAlgaeBluePoolTiles",
+      "CUSTOM:HeavilyCoveredAlgaeBluePoolTiles",
+      "CUSTOM:ExtremeAlgaeCoveredBluePoolTiles",
+      "CUSTOM:PoolTilesCyan",
+      "CUSTOM:PoolTile",
+      "CUSTOM:PoolTileBlue"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:PoolWater"
+    ],
+    "BLOCKS:mod:stage/one": [
+      "CUSTOM:LightAlgaePoolTiles"
+    ],
+    "ITEMS:furnace:fuel/blaze_rod": [
+      "Items.BLAZE_ROD"
+    ],
+    "BLOCKS:mod:stage/two": [
+      "CUSTOM:MidweightAlgaePoolTiles"
+    ],
+    "ITEMS:furnace:fuel/coal_block": [
+      "Blocks.COAL_BLOCK"
+    ],
+    "BLOCKS:mod:stage/four": [
+      "CUSTOM:ExtremeAlagaeCoveredPoolTiles"
+    ],
+    "ITEMS:furnace:fuel/dried_kelp_block": [
+      "Blocks.DRIED_KELP_BLOCK"
+    ],
+    "ITEMS:furnace:fuel/coal": [
+      "Items.COAL#0",
+      "Items.COAL#1"
+    ],
+    "BLOCKS:mod:stage/three": [
+      "CUSTOM:HeavilyCoveredPoolTiles"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:ChemicalExtractorMachine",
+      "~CUSTOM:PoolTileBlue",
+      "~CUSTOM:PoolTile",
+      "~CUSTOM:PoolTilesCyan",
+      "~CUSTOM:RawLiminaliteBlock",
+      "~CUSTOM:LiminaliteBlock",
+      "~CUSTOM:Limestone",
+      "~CUSTOM:ExtremeAlgaeCoveredBluePoolTiles",
+      "~CUSTOM:HeavilyCoveredAlgaeBluePoolTiles",
+      "~CUSTOM:MidweightAlgaeBluePoolTiles",
+      "~CUSTOM:LightAlgaeBluePoolTile",
+      "~CUSTOM:ExtremeAlgaeCoveredCyanPoolTiles",
+      "~CUSTOM:HeavilyCoveredAlgaeCyanPoolTiles",
+      "~CUSTOM:MidweightAlgaeCyanPoolTiles",
+      "~CUSTOM:LightAlgaeCyanPoolTiles",
+      "~CUSTOM:ExtremeAlagaeCoveredPoolTiles",
+      "~CUSTOM:HeavilyCoveredPoolTiles",
+      "~CUSTOM:MidweightAlgaePoolTiles",
+      "~CUSTOM:FeldsparBlock",
+      "~CUSTOM:Anorthosite",
+      "~CUSTOM:Porcelain"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:PoolTileBlueSlab",
+      "~CUSTOM:PoolTileCyanSlab",
+      "~CUSTOM:PoolTileSlab",
+      "~CUSTOM:PorcelainTiles"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:PoolTilesCyan"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~CUSTOM:Kaolinite"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:PoolTileStairs"
+    ],
+    "ITEMS:furnace:furnace/fuel": [
+      "Blocks.COAL_BLOCK",
+      "Blocks.DRIED_KELP_BLOCK",
+      "Items.COAL#0",
+      "Items.COAL#1",
+      "Items.LAVA_BUCKET",
+      "Items.BLAZE_ROD"
+    ],
+    "ITEMS:furnace:furnace/recipe_item": [
+      "CUSTOM:Halite"
+    ],
+    "BLOCKS:forge:beacon_base_blocks": [
+      "CUSTOM:LiminaliteBlock"
+    ],
+    "ITEMS:furnace:fuel/lava_bucket": [
+      "Items.LAVA_BUCKET"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "block.liminal_space_mccreator.light_algae_cyan_pool_tiles": "Light Algae Pool Tiles",
+      "block.liminal_space.midweight_algae_pool_tiles": "Midweight Algae Pool Tiles",
+      "block.liminal_spaces.abysall_stone": "Abyssal Stone",
+      "block.liminal_space.midweight_algae_cyan_pool_tiles": "Midweight Algae Pool Tiles",
+      "gui.liminal_spaces.chemical_extrator_machine.label_inventory": "Inventory",
+      "item.liminal_space.chlorine_tablet": "Chlorine Tablet",
+      "block.liminal_spaces.pool_tile_blue_slab": "Pool Tiles Blue",
+      "block.liminal_spaces.chemical_extractor_machine": "Chemical Extractor Machine",
+      "block.liminal_space_mccreator.pool_tile_blue": "Pool Tiles Blue",
+      "itemGroup.tab_liminal_spaces": "Liminal Spaces",
+      "block.liminal_space.strange_abysall_stonebrick": "Strange Abyssal Stonebrick",
+      "block.liminal_space.raw_liminalite_block": "Raw Liminalite Block",
+      "gui.liminal_space.chemical_extrator_machine.label_chemical_extractor_machine": "Chemical Extractor Machine",
+      "block.liminal_space.halite": "Halite",
+      "block.liminal_space_mccreator.light_algae_pool_tiles": "Light Algae Pool Tiles",
+      "item.liminal_spaces.mustard_gas_grenade": "Mustard Gas Grenade",
+      "block.liminal_space.extreme_algae_covered_cyan_pool_tiles": "Extreme Algae Covered Pool Tiles",
+      "death.attack.mustard_poisoning.player": "%1$s suffocated in Mustard Gas whilst trying to escape %2$s",
+      "block.liminal_space_mccreator.abyssal_stonebrick": "Abyssal Stonebrick",
+      "block.liminal_space_mccreator.pool_tile_blue_slab": "Pool Tiles Blue",
+      "block.liminal_spaces.limestone": "Limerock",
+      "item.liminal_space.pool_water_bucket": "Pool Water Bucket",
+      "item.liminal_space.kaolinite_hardened_brick": "Kaolinite Hardened Brick",
+      "block.liminal_space_mccreator.extreme_algae_covered_cyan_pool_tiles": "Extreme Algae Covered Pool Tiles",
+      "effect.liminal_spaces.mustard_gas_poisoning": "Mustard Gas Poisoning",
+      "item.liminal_space_mccreator.kaolinite_hardened_brick": "Kaolinite Hardened Brick",
+      "block.liminal_space_mccreator.midweight_algae_blue_pool_tiles": "Midweight Algae Pool Tiles",
+      "block.liminal_space_mccreator.chemical_extracotr_on": "Chemical Extractor_On",
+      "block.liminal_space_mccreator.limestone": "Limerock",
+      "item_group.liminal_space_mccreator.liminal_spaces": "Liminal Spaces",
+      "fluid.liminal_spaces.pool_water": "Pool Water",
+      "fluid.liminal_space_mccreator.pool_water": "Pool Water",
+      "block.liminal_spaces.extreme_algae_covered_blue_pool_tiles": "Extreme Algae Covered Pool Tiles",
+      "item.liminal_spaces.powdered_chlorine": "Powdered Chlorine",
+      "item.liminal_space.abysallbrick": "Abyssal Brick",
+      "block.liminal_space_mccreator.blockof_algae": "Block of Algae",
+      "gui.liminal_space_mccreator.chemical_extrator_machine.label_inventory": "Inventory",
+      "block.liminal_space.pool_tile_blue_slab": "Pool Tiles Blue",
+      "item.liminal_spaces.kaolinite_hardened_brick": "Kaolinite Hardened Brick",
+      "item.liminal_space.feldspar": "Feldspar",
+      "block.liminal_space.heavily_covered_algae_cyan_pool_tiles": "Heavily Covered Algae Pool Tiles",
+      "item.liminal_space.bleach": "Bleach",
+      "block.liminal_space.limestone": "Limerock",
+      "block.liminal_space_mccreator.feldspar_block": "Feldspar Block",
+      "block.liminal_spaces.liminalite_ore": "Liminalite Ore",
+      "subtitles.test": "",
+      "item.liminal_space_mccreator.feldspar": "Feldspar",
+      "block.liminal_spaces.porcelain_tiles": "Porcelain",
+      "item.liminal_spaces.pool_water_bucket": "Pool Water Bucket",
+      "gui.liminal_space.chemical_extrator_machine.label_inventory": "Inventory",
+      "item.liminal_space.kaolinite_clay": "Kaolinite Clay",
+      "effect.liminal_spaces.ammonia": "Ammonia",
+      "block.liminal_spaces.heavily_covered_algae_blue_pool_tiles": "Heavily Covered Algae Pool Tiles",
+      "block.liminal_space.extreme_alagae_covered_pool_tiles": "Extreme Algae Covered Pool Tiles",
+      "block.liminal_space_mccreator.chemical_extractor_machine": "Chemical Extractor Machine",
+      "block.liminal_spaces.blockof_algae": "Block of Algae",
+      "item.liminal_space_mccreator.refined_liminalite": "Refined Liminalite Ingot",
+      "block.liminal_space_mccreator.kaolinite": "Kaolinite",
+      "block.liminal_spaces.anorthosite": "Anorthosite",
+      "block.liminal_space.pool_water": "Pool Water",
+      "block.liminal_space_mccreator.porcelain": "Porcelain",
+      "block.liminal_space.blockof_algae": "Block of Algae",
+      "block.liminal_spaces.liminalite_block": "Refined Liminalite Block",
+      "block.liminal_space.abysall_stone": "Abyssal Stone",
+      "item.liminal_spaces.refined_liminalite": "Refined Liminalite Ingot",
+      "item.liminal_space_mccreator.ammonia_canister": "Ammonia Canister",
+      "block.liminal_spaces.pool_tile_stairs": "Pool Tiles Stairs",
+      "death.attack.mustard_poisoning.item": "%1$s was killed by %2$s using %3$s",
+      "block.liminal_space.pool_tile": "Pool Tiles",
+      "itemGroup.tabliminal_spaces": "Liminal Spaces",
+      "item.liminal_space_mccreator.algae_ball": "Algae Ball",
+      "fluid.liminal_space.pool_water": "Pool Water",
+      "item.liminal_space_mccreator.mustard_gas_grenade": "Mustard Gas Grenade",
+      "block.liminal_spaces.pool_tile": "Pool Tiles",
+      "block.liminal_space.midweight_algae_blue_pool_tiles": "Midweight Algae Pool Tiles",
+      "block.liminal_spaces.light_algae_cyan_pool_tiles": "Light Algae Pool Tiles",
+      "block.liminal_space_mccreator.midweight_algae_cyan_pool_tiles": "Midweight Algae Pool Tiles",
+      "item.liminal_spaces.abysallbrick": "Abyssal Brick",
+      "block.liminal_space.pool_tile_stairs": "Pool Tiles Stairs",
+      "item.liminal_spaces.algae_ball": "Algae Ball",
+      "item.liminal_space_mccreator.raw_liminalite": "Raw Liminalite",
+      "item.liminal_spaces.raw_liminalite": "Raw Liminalite",
+      "block.liminal_space_mccreator.raw_liminalite_block": "Raw Liminalite Block",
+      "block.liminal_spaces.pool_tiles_cyan": "Pool Tiles Cyan",
+      "effect.liminal_space_mccreator.mustard_gas_poisoning": "Mustard Gas Poisoning",
+      "item.liminal_spaces.bleach": "Bleach",
+      "item.liminal_space.ammonia_canister": "Ammonia Canister",
+      "block.liminal_space_mccreator.abysall_stone": "Abyssal Stone",
+      "block.liminal_space.heavily_covered_pool_tiles": "Heavily Covered Algae Pool Tiles",
+      "block.liminal_space.light_algae_cyan_pool_tiles": "Light Algae Pool Tiles",
+      "block.liminal_space.pool_tiles_cyan": "Pool Tiles Cyan",
+      "block.liminal_spaces.halite": "Halite",
+      "block.liminal_space.pool_tile_slab": "Pool Tiles Slab",
+      "block.liminal_space.liminalite_ore": "Liminalite Ore",
+      "block.liminal_spaces.pool_tile_slab": "Pool Tiles Slab",
+      "item.liminal_space_mccreator.chlorine_tablet": "Chlorine Tablet",
+      "block.liminal_spaces.raw_liminalite_block": "Raw Liminalite Block",
+      "block.liminal_spaces.heavily_covered_algae_cyan_pool_tiles": "Heavily Covered Algae Pool Tiles",
+      "block.liminal_space.light_algae_pool_tiles": "Light Algae Pool Tiles",
+      "block.liminal_space_mccreator.pool_tile_cyan_slab": "Pool Tiles Cyan",
+      "block.liminal_space.chemical_extractor_machine": "Chemical Extractor Machine",
+      "block.liminal_space.pool_tile_cyan_slab": "Pool Tiles Cyan",
+      "item.liminal_space_mccreator.powdered_chlorine": "Powdered Chlorine",
+      "block.liminal_spaces.midweight_algae_cyan_pool_tiles": "Midweight Algae Pool Tiles",
+      "block.liminal_spaces.midweight_algae_pool_tiles": "Midweight Algae Pool Tiles",
+      "block.liminal_space_mccreator.liminalite_block": "Refined Liminalite Block",
+      "block.liminal_space.abyssal_stonebrick": "Abyssal Stonebrick",
+      "item.liminal_space.raw_liminalite": "Raw Liminalite",
+      "gui.liminal_spaces.chemical_extrator_machine.label_chemical_extractor_machine": "Chemical Extractor Machine",
+      "block.liminal_space_mccreator.pool_tiles_cyan": "Pool Tiles Cyan",
+      "block.liminal_spaces.light_algae_blue_pool_tile": "Light Algae Pool Tiles",
+      "block.liminal_space_mccreator.pool_tile_stairs": "Pool Tiles Stairs",
+      "gui.liminal_space_mccreator.chemical_extrator_machine.label_chemical_extractor_machine": "Chemical Extractor Machine",
+      "block.liminal_space_mccreator.liminalite_ore": "Liminalite Ore",
+      "block.liminal_space.porcelain_tiles": "Porcelain",
+      "block.liminal_space.porcelain": "Porcelain",
+      "item.liminal_space_mccreator.bleach": "Bleach",
+      "block.liminal_space_mccreator.heavily_covered_pool_tiles": "Heavily Covered Algae Pool Tiles",
+      "effect.liminal_space_mccreator.ammonia": "Ammonia",
+      "block.liminal_space_mccreator.midweight_algae_pool_tiles": "Midweight Algae Pool Tiles",
+      "block.liminal_space.pool_tile_blue": "Pool Tiles Blue",
+      "block.liminal_spaces.strange_abysall_stonebrick": "Strange Abyssal Stonebrick",
+      "block.liminal_space_mccreator.heavily_covered_algae_blue_pool_tiles": "Heavily Covered Algae Pool Tiles",
+      "block.liminal_spaces.light_algae_pool_tiles": "Light Algae Pool Tiles",
+      "block.liminal_spaces.abyssal_stonebrick": "Abyssal Stonebrick",
+      "item.liminal_spaces.feldspar": "Feldspar",
+      "block.liminal_spaces.pool_tile_cyan_slab": "Pool Tiles Cyan",
+      "block.liminal_space_mccreator.pool_tile": "Pool Tiles",
+      "item.liminal_space_mccreator.kaolinite_clay": "Kaolinite Clay",
+      "item.liminal_space.powdered_chlorine": "Powdered Chlorine",
+      "block.liminal_space_mccreator.strange_abysall_stonebrick": "Strange Abyssal Stonebrick",
+      "block.liminal_space_mccreator.heavily_covered_algae_cyan_pool_tiles": "Heavily Covered Algae Pool Tiles",
+      "effect.liminal_space.mustard_gas_poisoning": "Mustard Gas Poisoning",
+      "block.liminal_spaces.midweight_algae_blue_pool_tiles": "Midweight Algae Pool Tiles",
+      "block.liminal_space_mccreator.anorthosite": "Anorthosite",
+      "block.liminal_space.chemical_extracotr_on": "Chemical Extractor_On",
+      "item.liminal_spaces.kaolinite_clay": "Kaolinite Clay",
+      "block.liminal_spaces.feldspar_block": "Feldspar Block",
+      "block.liminal_space.anorthosite": "Anorthosite",
+      "item.liminal_spaces.chlorine_tablet": "Chlorine Tablet",
+      "block.liminal_space.light_algae_blue_pool_tile": "Light Algae Pool Tiles",
+      "block.liminal_space_mccreator.pool_tile_slab": "Pool Tiles Slab",
+      "item.liminal_space_mccreator.pool_water_bucket": "Pool Water Bucket",
+      "block.liminal_spaces.pool_water": "Pool Water",
+      "block.liminal_space.extreme_algae_covered_blue_pool_tiles": "Extreme Algae Covered Pool Tiles",
+      "block.liminal_space_mccreator.light_algae_blue_pool_tile": "Light Algae Pool Tiles",
+      "block.liminal_spaces.chemical_extracotr_on": "Chemical Extractor_On",
+      "block.liminal_space.feldspar_block": "Feldspar Block",
+      "block.liminal_space_mccreator.porcelain_tiles": "Porcelain",
+      "death.attack.mustard_poisoning": "%1$s suffocated in Mustard Gas",
+      "effect.liminal_space.ammonia": "Ammonia",
+      "block.liminal_space_mccreator.extreme_algae_covered_blue_pool_tiles": "Extreme Algae Covered Pool Tiles",
+      "block.liminal_spaces.kaolinite": "Kaolinite",
+      "block.liminal_spaces.heavily_covered_pool_tiles": "Heavily Covered Algae Pool Tiles",
+      "block.liminal_space_mccreator.halite": "Halite",
+      "item.liminal_space.mustard_gas_grenade": "Mustard Gas Grenade",
+      "item.liminal_spaces.ammonia_canister": "Ammonia Canister",
+      "item.liminal_space.refined_liminalite": "Refined Liminalite Ingot",
+      "item.liminal_space_mccreator.abysallbrick": "Abyssal Brick",
+      "block.liminal_space.heavily_covered_algae_blue_pool_tiles": "Heavily Covered Algae Pool Tiles",
+      "block.liminal_space_mccreator.pool_water": "Pool Water",
+      "block.liminal_space.kaolinite": "Kaolinite",
+      "block.liminal_spaces.extreme_algae_covered_cyan_pool_tiles": "Extreme Algae Covered Pool Tiles",
+      "block.liminal_spaces.extreme_alagae_covered_pool_tiles": "Extreme Algae Covered Pool Tiles",
+      "block.liminal_space_mccreator.extreme_alagae_covered_pool_tiles": "Extreme Algae Covered Pool Tiles",
+      "item.liminal_space.algae_ball": "Algae Ball",
+      "block.liminal_spaces.porcelain": "Porcelain",
+      "block.liminal_space.liminalite_block": "Refined Liminalite Block",
+      "block.liminal_spaces.pool_tile_blue": "Pool Tiles Blue"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Chemical Extraction Chamer",
+        "children": []
+      },
+      {
+        "name": "Pool_Tile_Weathering",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "liminal_space",
+    "modName": "Liminal space",
+    "version": "1.0a",
+    "author": "Jess",
+    "websiteURL": "https://github.com/StreamingJess/Liminal_Spaces/tree/master",
+    "license": "All Rights Reserved",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created by Jess, Ariana, Rporotos",
+    "modElementsPackage": "net.liminalspace"
+  },
+  "mcreatorVersion": 202400118518
+}

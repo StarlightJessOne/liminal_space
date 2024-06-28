@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "algae_vines",
+        "missing": "algae_vines"
+      },
+      "name": "default"
+    }
+  }
+}

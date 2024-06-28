@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "liminal_space:abysallbrick"
+    }
+  },
+  "result": {
+    "item": "liminal_space:abyssal_stonebrick",
+    "count": 1
+  }
+}

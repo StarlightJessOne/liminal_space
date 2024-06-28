@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "liminal_space:powdered_chlorine"
+    },
+    "b": {
+      "item": "minecraft:potion"
+    },
+    "c": {
+      "item": "liminal_space:limestone"
+    }
+  },
+  "result": {
+    "item": "liminal_space:bleach",
+    "count": 1
+  }
+}

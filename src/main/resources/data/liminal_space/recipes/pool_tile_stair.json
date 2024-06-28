@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "a  ",
+    "aa ",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "liminal_space:pool_tile"
+    }
+  },
+  "result": {
+    "item": "liminal_space:pool_tile_stairs",
+    "count": 3
+  }
+}

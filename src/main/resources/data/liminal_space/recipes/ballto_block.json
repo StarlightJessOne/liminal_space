@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "liminal_space:algae_ball"
+    }
+  },
+  "result": {
+    "item": "liminal_space:blockof_algae",
+    "count": 1
+  }
+}

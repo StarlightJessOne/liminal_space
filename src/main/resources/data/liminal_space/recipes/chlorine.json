@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "liminal_space:powdered_chlorine"
+    }
+  },
+  "result": {
+    "item": "liminal_space:chlorine_tablet",
+    "count": 1
+  }
+}

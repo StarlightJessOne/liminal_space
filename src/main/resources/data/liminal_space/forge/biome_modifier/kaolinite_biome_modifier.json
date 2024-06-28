@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "jungle",
+    "bamboo_jungle"
+  ],
+  "features": "liminal_space:kaolinite",
+  "step": "underground_ores"
+}

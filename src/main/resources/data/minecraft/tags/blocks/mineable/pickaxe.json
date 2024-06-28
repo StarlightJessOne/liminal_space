@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "liminal_space:chemical_extractor_machine",
+    "liminal_space:pool_tile_blue",
+    "liminal_space:pool_tile",
+    "liminal_space:pool_tiles_cyan",
+    "liminal_space:raw_liminalite_block",
+    "liminal_space:liminalite_block",
+    "liminal_space:limestone",
+    "liminal_space:extreme_algae_covered_blue_pool_tiles",
+    "liminal_space:heavily_covered_algae_blue_pool_tiles",
+    "liminal_space:midweight_algae_blue_pool_tiles",
+    "liminal_space:light_algae_blue_pool_tile",
+    "liminal_space:extreme_algae_covered_cyan_pool_tiles",
+    "liminal_space:heavily_covered_algae_cyan_pool_tiles",
+    "liminal_space:midweight_algae_cyan_pool_tiles",
+    "liminal_space:light_algae_cyan_pool_tiles",
+    "liminal_space:extreme_alagae_covered_pool_tiles",
+    "liminal_space:heavily_covered_pool_tiles",
+    "liminal_space:midweight_algae_pool_tiles",
+    "liminal_space:feldspar_block",
+    "liminal_space:anorthosite",
+    "liminal_space:porcelain"
+  ]
+}

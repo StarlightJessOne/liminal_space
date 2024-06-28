@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "phantom_gleam"
+      },
+      "name": "default"
+    }
+  }
+}

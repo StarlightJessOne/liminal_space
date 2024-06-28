@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liminal_space:block/porc1",
+    "up": "liminal_space:block/porc1",
+    "north": "liminal_space:block/porc1",
+    "east": "liminal_space:block/porc1",
+    "south": "liminal_space:block/porc1",
+    "west": "liminal_space:block/porc1",
+    "particle": "liminal_space:block/porc1"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "_fv": 60,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><variables><variable type=\"Number\" id=\"baseRate\">baseRate</variable><variable type=\"Number\" id=\"rateWithAmplifier\">rateWithAmplifier</variable></variables><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">no_ext_trigger</field><next><block type=\"deal_damage\"><value name=\"amount\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value><value name=\"damagesource\"><block type=\"damagesource_from_type\"><field name=\"damagetype\">CUSTOM:MustardPoisoning</field></block></value></block></next></block><block type=\"entity_add_potion\" x=\"48\" y=\"191\"><field name=\"potion\">CUSTOM:MustardGasPoisoning</field><value name=\"level\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"duration\"><block type=\"math_number\"><field name=\"NUM\">1200</field></block></value><value name=\"entity\"><block type=\"entity_from_deps\"></block></value></block></xml>"
+  }
+}

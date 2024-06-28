@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "liminal_space:block/extractor_machine_bottom_-",
+    "up": "liminal_space:block/extractor_machine_top",
+    "north": "liminal_space:block/extractor_machine_front_on",
+    "east": "liminal_space:block/extractor_machine_side",
+    "south": "liminal_space:block/extractor_machine_back",
+    "west": "liminal_space:block/extractor_machine_side",
+    "particle": "liminal_space:block/extractor_machine_bottom_-"
+  },
+  "render_type": "solid"
+}

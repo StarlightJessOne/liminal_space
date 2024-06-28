@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "liminal_space:block/chemical_extractor_machine"
+    },
+    "facing=east": {
+      "model": "liminal_space:block/chemical_extractor_machine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "liminal_space:block/chemical_extractor_machine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "liminal_space:block/chemical_extractor_machine",
+      "y": 270
+    }
+  }
+}
